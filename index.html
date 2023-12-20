@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/f9ad5ec7fa.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+         <div class="misic-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="./Music/photo_2023.jpg" 
+            alt="misic-player"
+            class="song-img">
+            <h1>Brazil Phonk</h1>
+            <p>Abdurahmon</p>
+
+         <audio id="song">
+            <source src="./Music/Brazilian Phonk.mp3" type="audio/mpeg">
+         </audio>
+
+         <input type="range" value="0" id="progress">
+
+         <div class="controls">
+            <div><i class="fa-solid fa-backward"></i></div>
+            <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+            <div><i class="fa-solid fa-forward"></i></div>
+         </div>
+
+
+         </div>
+    </div>
+
+
+ 
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
